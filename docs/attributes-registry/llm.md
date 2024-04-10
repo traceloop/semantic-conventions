@@ -38,7 +38,6 @@ linkTitle: LLM
 <!-- semconv registry.gen_ai(omit_requirement_level,tag=llm-generic-response) -->
 | Attribute  | Type | Description  | Examples  | Stability |
 |---|---|---|---|---|
-| `gen_ai.response.finish_reasons` | string[] | Array of reasons the model stopped generating tokens, corresponding to each generation received. | `[stop]` | ![Experimental](https://img.shields.io/badge/-experimental-blue) |
 | `gen_ai.response.id` | string | The unique identifier for the completion. | `chatcmpl-123` | ![Experimental](https://img.shields.io/badge/-experimental-blue) |
 | `gen_ai.response.model` | string | The name of the LLM a response was generated from. | `gpt-4-0613` | ![Experimental](https://img.shields.io/badge/-experimental-blue) |
 | `gen_ai.usage.completion_tokens` | int | The number of tokens used in the LLM response (completion). | `180` | ![Experimental](https://img.shields.io/badge/-experimental-blue) |
